@@ -1,0 +1,21 @@
+cnt=random.randint(0,4)
+    if(cnt ==0):
+        a1.fd(40)
+    elif(cnt==1):
+        a1.fd(-40)
+    elif(cnt==3):
+        a1.lt(60)
+        a1.fd(40)
+    elif(cnt==4):
+        a1.rt(60)
+        a1.fd(40)
+    if(cnt ==0):
+        a2.rt(60)
+        a2.fd(40)
+    elif(cnt==1):
+        a2.lt(60)
+        a2.fd(40)
+    elif(cnt==3):
+        a2.fd(40)
+    elif(cnt==4):
+        a2.fd(40)
